@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <meta name="author" content="Prof. Barnett">
+        <meta name="author" content="Henry Urbina">
         <meta name="description" content="Practice learning and using styles to control the parts of the CSS box model on your pages.">
 
         <!-- Favicon -->
@@ -80,7 +80,7 @@
                     <!-- the text used in the demos on this page was pulled from the GIT master's program web page on the TPS website: https://poly.engineering.asu.edu/git/ms-in-graphic-information-technology/ -->
                     
                     <!-- TO DO: Add the text below to a paragraph with a class of "content", and wrap the words "Graphic Information Technology (GIT)" in a span with a class of "blue" -->
-                    The master of science in Graphic Information Technology (GIT) provides students with the opportunity to study within the various areas of graphics and cross-media design.
+                    <p class="content">The master of science in <span class="blue">Graphic Information Technology (GIT)</span> provides students with the opportunity to study within the various areas of graphics and cross-media design.</p>
                 </section>
             </section>
 
@@ -91,10 +91,10 @@
                 <section>
                     <h3>Padding Box Demo</h3>
                     <!-- TO DO: add 16 pixels of top and bottom padding to the paragraph below -->
-                    <p>We are going to style the elements in this section with <strong>padding</strong>. We'll also see how padding works differently on inline and block elements.</p>
+                    <p style="padding-top: 16px; padding-bottom: 16px;">We are going to style the elements in this section with <strong>padding</strong>. We'll also see how padding works differently on inline and block elements.</p>
 
                     <!-- TO DO: add the green background color and 16 pixels of padding to all sides of the link below and note the way it displays on the page. We will add more styles together to make that link look like a button -->
-                    <a href="#">Home</a>
+                    <a href="#" style="background-color: green; padding: 16px; display: block; font-size: 1.5 rem; text-decoration: none; width: fit-content; margin: 16px auto;">Home</a>
                 </section>
             </section>
 
@@ -106,7 +106,7 @@
                     <h3>Border Box Demo</h3>
                     <p>The paragraph below has some basic styling already added to it, but those styles are commented out in the CSS file. Follow along as we add those styles individually and see how they change the size and appearance of the element.</p>
                     <!-- TO DO: Follow along as we add and review the styles on the paragraph below -->
-                    <p>The master of science in Graphic Information Technology (GIT) provides students with the opportunity to study within the various areas of graphics and cross-media design.</p>
+                    <p style="background-color: var(--dark-gray); color: var(--white); padding: 1rem; border: 4px solid var(--yellow);">The master of science in Graphic Information Technology (GIT) provides students with the opportunity to study within the various areas of graphics and cross-media design.</p>
                 </section>
             </section>
 
